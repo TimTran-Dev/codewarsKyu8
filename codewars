@@ -1,0 +1,60 @@
+Convert a String to a Number!
+
+1.) We need a function that can transform a string into a number. What ways of achieving this do you know?
+Note: Don't worry, all inputs will be strings, and every string is a perfectly valid representation of an integral number.
+var stringToNumber = function(str){
+  return parseFloat(str)
+}
+
+--
+
+MakeUpperCase
+
+2.) Write function makeUpperCase.
+
+function makeUpperCase(str) {
+  return str.toUpperCase()
+
+}
+
+Third Angle of a Triangle
+
+3.) You are given two angles (in degrees) of a triangle.
+Write a function to return the 3rd.
+Note: only positive integers will be tested.
+
+function otherAngle(a, b) {
+  let c = 180 - (a + b)
+
+  return c;
+}
+
+--
+
+Grasshopper - Messi goals function
+
+4.) Messi is a soccer player with goals in three leagues:
+	•	LaLiga
+	•	Copa del Rey
+	•	Champions
+Complete the function to return his total number of goals in all three leagues.
+Note: the input will always be valid.
+
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+ goal = laLigaGoals + copaDelReyGoals + championsLeagueGoals
+ return goal;// code goes here
+}
+
+--
+
+Function 1 - hello world
+
+5.) Description:
+Make a simple function called greet that returns the most-famous "hello world!".
+Style Points
+Sure, this is about as easy as it gets. But how clever can you be to create the most creative hello world you can think of? What is a "hello world" solution you would want to show your friends?
+
+function greet(){
+  return "hello world!"
+}
+--
